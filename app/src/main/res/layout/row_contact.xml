@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffbababa"
+    android:padding="5dip"
+    android:layout_width="match_parent"
+    android:layout_height="50dip">
+
+    <TextView
+        android:background="#ff5f5f5f"
+        android:text="A"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-thin"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:id="@+id/txtViewInitial" />
+
+    <TextView
+        android:text="Contact name"
+        android:id="@+id/txtViewContactName"
+        android:paddingLeft="5dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/txtViewInitial"
+        android:layout_toRightOf="@+id/txtViewInitial" />
+    <TextView
+        android:id="@+id/txtViewPhoneNumber"
+        android:textSize="15sp"
+        android:text="9191919191"
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/txtViewContactName"
+        android:layout_alignStart="@+id/txtViewContactName" />
+</RelativeLayout>
